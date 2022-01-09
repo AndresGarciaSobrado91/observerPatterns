@@ -82,6 +82,6 @@ class MainActivity : AppCompatActivity() {
         // on activity recreated, we get the last values from liveData and stateFlow, while normal flow does not save a state, its a single use observable.
 
         // a stateFlow does not emit the same previous value again, but when activity recreated > we collect the last value again
-        // a sharedFlow is the opposite of stateFlow (can emit same value again, and we don't collect the last value on activity recreated
+        // a sharedFlow is the opposite of stateFlow (can emit same value again, and we don't collect the last value on activity recreated)
     }
 }
