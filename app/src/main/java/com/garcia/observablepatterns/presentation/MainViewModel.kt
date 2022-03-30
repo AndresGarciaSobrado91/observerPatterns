@@ -16,7 +16,7 @@ class MainViewModel : ViewModel() {
     private val _stateFlow = MutableStateFlow("StateFLow: $DEFAULT_VALUE")
     val stateFlow = _stateFlow.asStateFlow()
 
-    // normal flow is not defined here
+    // normal flow is not defined here.
 
     private val _sharedFlow = MutableSharedFlow<String>() // as a normal flow, it hasn't got a state, so initial value is not required
     val sharedFLow = _sharedFlow.asSharedFlow()
